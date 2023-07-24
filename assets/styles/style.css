@@ -126,7 +126,9 @@ fieldset {
     display: flex;
     flex-direction: column;
 }
-
+textarea{
+    width: 100%;
+}
 .footer {
     background-color: var(--grey);
     min-height: 6vh;
