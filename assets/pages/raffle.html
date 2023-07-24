@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/style.css">
+    <title>- SNOWY CREAM - Benefits and Tips</title>
+    <link rel="shortcut icon" href="../images/icon.png" type="image/x-icon">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="headerNav">
+            <a class="navA" href="/index.html">Home</a>
+            <a class="navA" href="aboutUs.html">About Us</a>
+            <a class="navA" href="contact.html">Contact</a>
+            <a class="navA" href="information.html">More</a>
+            <a class="navA" href="benefitsTips.html">Benefits and Tips</a>
+            <a class="navA" href="#">Raffle</a>
+        </nav>
+        <a href="/index.html">
+            <img src="../images/logo.png" class="headerLogo" alt="logo">
+        </a>
+    </header>
+    <main>
+        <h2>Raffle</h2>
+        <u>You can colaborate so that we expand the business and by doing so you will be participating in the raffle for
+            a box of traditional ice creams</u>
+        <div class="mapForm">
+            <div class="map">
+                <h4>Our location is located at:</h4>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d423284.04420177493!2d-118.74139487984402!3d34.020608448781225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2sLos%20%C3%81ngeles%2C%20California%2C%20EE.%20UU.!5e0!3m2!1ses!2scl!4v1689793217124!5m2!1ses!2scl"
+                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div>
+                <form action="./show_data.html" method="get" target="_blank">
+                    <fieldset>
+                        <label for="name">First Name:</label>
+                        <input type="text" id="name" name="first-name">
+                        <label for="surname">Last Name:</label>
+                        <input type="text" id="surname" name="last-name">
+                        <label for="meet-or-zoom">Choose Meet or Zoom</label>
+                        <select name="meet-or-zoom" id="meet-or-zoom">
+                            <option disabled selected>Meet or Zoom</option>
+                            <option value="meet">Meet</option>
+                            <option value="zoom">Zoom</option>
+                        </select>
+                        <label for="date">Choose Date</label>
+                        <select name="date" id="date">
+                            <option disabled selected>Date</option>
+                            <option value="20/10">20/10</option>
+                            <option value="27/10">27/10</option>
+                            <option value="21/11">21/11</option>
+                        </select>
+                        <div>
+                            <p>Payment Options</p>
+                            <div>
+                                <input type="radio" name="payment-option" id="cash" value="cash">
+                                <label for="cash">Cash</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="payment-option" id="credit-card" value="credit-card">
+                                <label for="credit-card">Credit Card</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="payment-option" id="debit-card" value="debit-card">
+                                <label for="debit-card">Debit Card</label>
+                            </div>
+                        </div>
+                        <label for="textbox">Message (Optional)</label>
+                        <textarea name="textbox" id="textbox" rows="3"></textarea>
+                        <div class="send">
+                            <div>
+                                <input type="checkbox" id="agreements" name="agree">
+                                <label for="agreements">I accept term and conditions</label>
+                            </div>
+                            <input type="submit" value="Send">
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <p>Created by : Benjamín Sepúlveda</p>
+    </footer>
+</body>
+
+</html>
